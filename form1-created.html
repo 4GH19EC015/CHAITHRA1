@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form-1 created</title>
+    <style>
+        .one{
+            font-size:25px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .two{
+            color:blueviolet;
+        }
+        .three{
+            background-color:orangered;
+            border:2px solid purple; width:50%;
+            margin-left: 250px;
+
+        }
+        #four{
+            background-color: blue;
+            margin-left: 250px;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form action="">
+        <fieldset class="three">
+            <legend class="one">Personal Details</legend>
+
+            <label  class="two" for="fname">FIRST NAME</lebel>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+
+            <label class="two" for="mname">MIDDLE NAME</lebel>
+            <input type="text" id="mname" name="mname">
+            <br><br>
+
+            <label class="two" for="lname">LAST NAME</lebel>
+            <input type="text" id="lanme" name="lname">
+            <br><br>
+            
+            <label class="two" for="email">EMAIL</lebel>
+            <input type="text" id="email" name="email">
+            <br><br>
+
+            <label class="two" for="bob">DOB</lebel>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+                
+        </fieldset>
+        <fieldset class="three">
+
+            <legend class="one">Educational Details</legend>
+
+            <label class="two"for="dept">DEPARTMENT</label>
+            <br><br>
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">CS</label>
+
+            <input type="radio" id="eC" name="dept">
+            <label for="eC">EC</label>
+
+            <input type="radio" id="civil" name="dept">
+            <label for="civil">Civil</label>
+            <br><br>
+            
+            <label for="yog">YOG</label>
+            <br><br>
+            
+            <label for="yog">Yog</label>
+            <input list="yog" id="yop" name="yop">
+            <datalist id="yog">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </datalist>
+            <br><br>
+            
+
+            <label class="two" for="Skills">SKILLS</label>
+            <br><br>
+
+
+            <input type="radio" id="html" name="html">
+            <label for="html">HTML</label>
+            <br><br>
+
+            <input type="radio" id="css" name="css">
+            <label for="css">CSS</label>
+            <br><br>
+
+            <input type="radio" id="javascript" name="javascript">
+            <label for="javascript">JAVASCRIPT</label>
+            <br><br>
+
+         </fieldset>
+         <input id="four" type="SUBMIT">
+    </form>
+
+    
+</body>
+</html>
